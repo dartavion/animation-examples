@@ -16,7 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@animation-examples/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@animation-examples/api-interfaces": [
+        "libs/api-interfaces/src/index.ts"
+      ],
+      "@animation-examples/animations": ["libs/animations/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
